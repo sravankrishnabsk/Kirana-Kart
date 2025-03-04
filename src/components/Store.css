@@ -1,0 +1,57 @@
+.store-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.store-card {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.store-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.store-body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.view-prod {
+    color: #007bff;
+    cursor: pointer;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    font-size: medium;
+    transition: background 0.3s ease;
+}
+
+.view-prod:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.store-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.location {
+    color: gray;
+}

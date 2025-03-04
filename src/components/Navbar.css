@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  border: 4px solid transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-bottom: 5px;
+  transition: color 0.3s ease-in-out, border-bottom 0.2s ease-out;
+}
+
+
+.nav-item.active {
+  border-bottom: 4px solid #007bff;
+  color: #007bff;
+}
+
+.profile-btn {
+  padding: 8px 24px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #007bff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 7px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.profile-btn:hover {
+  background-color: #3276be;
+  color: white;
+}
