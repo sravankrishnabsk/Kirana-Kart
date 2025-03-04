@@ -40,13 +40,13 @@
 }
 
 .product-card h3 {
-    font-size: 18px;
+    font-size: 14px;
     color: #444;
     margin: 10px 0;
 }
 
 .product-card p {
-    font-size: 16px;
+    font-size: 12px;
     color: #888;
     margin-bottom: 10px;
 }
@@ -58,7 +58,7 @@
     padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     transition: background 0.3s;
 }
 
@@ -74,6 +74,7 @@
 .gotocart {
     padding: 10px 20px;
     margin-top: 40px;
+    font-size: small;
     background: #007bff;
     color: white;
     text-decoration: none;

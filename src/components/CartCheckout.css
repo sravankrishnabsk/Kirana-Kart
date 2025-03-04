@@ -15,18 +15,27 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.cart-item-details {
+    font-size: small;
+}
+
 .cart-item img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
+    width: 150px;
+    height: 140px;
     border-radius: 5px;
 }
 
 .store-name {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: darkblue;
     margin-bottom: 10px;
+}
+
+.cart-summary {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: darkcyan;
 }
 
 /* Buy More button */
@@ -38,7 +47,7 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 5px;
     transition: background 0.3s ease;
 }
@@ -50,7 +59,7 @@
 
 .quantity-controls button {
     margin: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     padding: 7px 10px;
     background-color: #007bff;
@@ -62,7 +71,7 @@
 
 .item-quantity {
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
 }
 
@@ -82,6 +91,7 @@
     color: white;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 13px;
     border-radius: 5px;
     transition: background 0.3s ease;
 }
@@ -94,7 +104,7 @@
 .checkout-btn.disabled {
     background: #ccc;
     cursor: not-allowed;
-    pointer-events: none; /* Fully disables clicking */
+    pointer-events: none;
 }
 
 
@@ -104,7 +114,7 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 13px;
     border-radius: 5px;
     transition: background 0.3s ease;
 }

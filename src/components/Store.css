@@ -1,7 +1,18 @@
+.store-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .store-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.store-content {
+    font-size: small;
 }
 
 .store-card {
@@ -17,14 +28,14 @@
 }
 
 
-.store-name {
-    font-size: 20px;
-    font-weight: 700;
+
+.store-distance {
+    font-size: small;
 }
 
 .store-body {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .view-prod {
@@ -37,7 +48,6 @@
     border-radius: 5px;
     background-color: white;
     font-weight: 500;
-    font-size: medium;
     transition: background 0.3s ease;
 }
 
@@ -48,7 +58,7 @@
 
 .store-image {
     width: 200px;
-    height: 200px;
+    height: 140px;
     border-radius: 10px;
 }
 
